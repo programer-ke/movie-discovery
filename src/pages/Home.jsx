@@ -2,6 +2,7 @@ import MovieCard from "../components/MovieCard";
 import React, { useEffect, useState } from 'react'
 import "../css/Home.css"
 import { getPopularMovies, searchMovies } from "../services/api";
+import Footer from "../components/Footer";
 
 
 function Home() {
@@ -70,6 +71,7 @@ function Home() {
             ))}
         </div>
          }
+         <Footer/>
     </div>
   )
 }
