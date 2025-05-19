@@ -1,5 +1,6 @@
 import "../css/MovieCard.css"
-import { searchMovies, getPopularMovies } from "../services/Api"
+import { searchMovies, getPopularMovies } from "../services/api"
+
 import { useMovieContext } from "../contexts/MovieContext"
 import { FaHeart } from "react-icons/fa";
 
